@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %} Index Page {% endblock %}
+{% block head %}
+{{ super() }}
+<style>
+    p{
+        color: blue;
+        font-size: 30px;
+    }
+</style>
+{% endblock %}
+{% block body %}
+<h1>I am shruti </h1>
+{% for eat in eatable%}
+<h1>{{eat}}</h1>
+{% endfor %}
+{% endblock %}

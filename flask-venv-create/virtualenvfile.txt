@@ -1,0 +1,8 @@
+1. command for creating virtual environment
+
+python -m venv venv
+
+2. Activating venv : venv\Scripts\activate
+3 Deactivate venv: deactivate
+4. Install the virtual env: pip install virtualenv
+5. pip list command will provide the list of all installed python packages

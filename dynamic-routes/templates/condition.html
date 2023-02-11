@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %} Index Page {% endblock %}
+{% block body %}
+{% if eatable=='fruits'%}
+<h1>Mango</h1>
+{% elif eatable=='vegetable' %}
+<h1>Potato</h1>
+{% else %}
+<h1>None</h1>
+{% endif %}
+{% endblock %}

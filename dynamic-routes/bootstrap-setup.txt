@@ -1,0 +1,3 @@
+1) Install Bootstrap: pip install flask-bootstrap
+2) from flask_bootstrap import Bootstrap
+3) bootstrap = Bootstrap(app)
